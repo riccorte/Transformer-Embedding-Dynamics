@@ -1,20 +1,23 @@
 # Transformer Embedding Dynamics
 
-The project consisted of understanding and studying the Transformer of the GPT-2 model.
+This project investigated the internal dynamics of **transformer architectures**, with a focus on the transformation of **embedding spaces** across layers. The study combined a **physical and phenomenological perspective** to analyze the roles of both the **attention mechanism** and the **feed-forward networks (FFNNs)** in shaping high-dimensional representations.
 
-## Overview
-This research project, overviewed by the professor Jeff Byers concentrated on the study of three features of the Transformer architecture that affected the embedding spaces.
-....
-Short paragraph describing goals, dataset, and methodology.
 
-## My contributions
-- Brief bullet 1 about what *you personally* implemented (modules, analyses, key code).
-- Bullet 2: tests / evaluation / experiments you ran.
-- Bullet 3: any figures, reports, or documentation you produced.
+## Methodology
+- Analysis of embedding transformations across layers of a transformer model (GPT-like).  
+- Study of **attention patterns** and their influence on representation geometry.  
+- Examination of the **FFNN component** and its nonlinear contribution to embedding evolution.  
+- Application of dimensionality reduction and visualization techniques to interpret structural properties.  
 
-## How to run
-1. Create virtualenv
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # or .\\venv\\Scripts\\activate on Windows
-   pip install -r requirements.txt
+
+## Results
+- Characterized the evolution of embedding spaces under attention and FFNN transformations.  
+- Provided insights into the structural and geometric features underlying transformer representations.  
+- Highlighted interpretability challenges and potential directions for representation analysis.  
+
+
+## Authors
+This work was carried out in collaboration between:  
+- **Alessandro Miotto**  
+- **Lorenzo Rizzi**  
+- **Riccardo Corte**  
